@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="js.js">
+    <title>Document_lab3</title>
+</head>
+
+<body onload="load();">
+    <div id="header">
+        <h1> Audio example </h1>
+    </div>
+    <div id="albums">
+        <form id="albumform">
+            <fieldset>
+                <legend class="singer"> Ray Charles </legend>
+                <ul class="albumname">
+                    <li> 
+                        <a class="albumlink" onclick="loadAlbum('RC_hitstheroad.html'); ">
+                            The Genius Hits The Road 
+                        </a>
+                    </li>
+                    <li> 
+                        <a class="albumlink" onclick="loadAlbum('RC_smile.html');"> Have A Smile With Me </a> 
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+    <div id="tracks">
+        <iframe id="target" src=""> </iframe>
+    </div>
+</body>
+
+</html>
