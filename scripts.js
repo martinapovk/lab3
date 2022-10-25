@@ -1,5 +1,4 @@
 function addtoPL(name, path) {
-    alert(window.parent.location.href);
     localStorage[name] = path; /* додаємо в localStorage шлях до аудіо файлу */
     window.parent.location.href = window.parent.location.href;/* Оскільки iframe підвантажує зовнішню html сторінку, то після додавання треку до списку, необхідно явно перезавантажити основну сторінку */
 }
@@ -49,7 +48,6 @@ function load() {
     /* Переходимо до завантаження користувацького списку відтворення */
     var list = document.getElementById('playlist'); /* Отримуємо доступ до списку відтворення */
     for (var i in localStorage) /* додаємо треки, збережені користувачем */ {
-        alert(i);
         var element = document.createElement('li');
         element.setAttribute('class', 'PL');
         element.setAttribute('onclick', "playtrack ('" + i + "')");
