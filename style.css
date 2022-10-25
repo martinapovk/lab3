@@ -1,6 +1,6 @@
 
 
-#Albums {
+#albums {
     float: left;
 }
 
@@ -8,11 +8,11 @@
     float: left;
 }
 
-#AudioPanel {
+#audioPanel {
     clear: left;
 }
 
-#Albumform {
+#albumform {
     width: 350px;
 }
 
@@ -26,11 +26,11 @@ a.albumlink :hover {
     font-weight: bolder;
 }
 
-#Playlistpanel {
+#playlistpanel {
     border: 3px double black;
 }
 
-#Target {
+#target {
     width: 800px;
     height: 600px;
     border: 0px;
@@ -47,7 +47,7 @@ a.listenlink :hover {
     font-weight: bolder;
 }
 
-#Albumtracks {
+#albumtracks {
     width: 500px;
 }
 
